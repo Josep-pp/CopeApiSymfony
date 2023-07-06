@@ -1,0 +1,28 @@
+App\Entity\Adress:
+  attributes:
+    id:
+      groups: ['adress']
+
+    type:
+      groups: ['adress','adress_no_id']
+
+    number:
+      groups: ['adress','adress_no_id']
+
+    name:
+      groups: ['adress','adress_no_id']
+
+    citty:
+      groups: ['adress','adress_no_id']
+
+    postalCode:
+      groups: ['adress','adress_no_id']
+
+    floor:
+      groups: ['adress','adress_no_id']
+
+    doorNumber:
+      groups: ['adress','adress_no_id']
+
+    client:
+      groups: ['adress','adress_no_id']

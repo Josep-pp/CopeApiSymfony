@@ -1,0 +1,8 @@
+App\Entity\Batch:
+  properties:
+    type:
+      - NotBlank: ~
+    priceKilo:
+      - NotBlank: ~
+    kilos:
+      - NotBlank: ~

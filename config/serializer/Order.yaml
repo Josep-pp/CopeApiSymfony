@@ -1,0 +1,13 @@
+App\Entity\Order:
+  attributes:
+    id:
+      groups: ['order']
+
+    total:
+      groups: ['order','order_no_id']
+
+    dateDelivery:
+      groups: ['order','order_no_id']
+
+    client:
+      groups: ['order','order_no_id']

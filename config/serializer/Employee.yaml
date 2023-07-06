@@ -1,0 +1,10 @@
+App\Entity\Employee:
+  attributes:
+    id:
+      groups: ['employee']
+
+    name:
+      groups: ['employee','employee_no_id']
+
+    surname:
+      groups: ['employee','employee_no_id']

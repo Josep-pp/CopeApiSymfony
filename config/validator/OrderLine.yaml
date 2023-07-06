@@ -1,0 +1,8 @@
+App\Entity\OrderLine:
+  properties:
+    kilos:
+      - NotBlank: ~
+    order:
+      - NotBlank: ~
+    batch:
+      - NotBlank: ~

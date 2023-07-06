@@ -1,0 +1,8 @@
+App\Entity\Order:
+  properties:
+    total:
+      - NotBlank: ~
+    dateDelivery:
+      - NotBlank: ~
+    client:
+      - NotBlank: ~

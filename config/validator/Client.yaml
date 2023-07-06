@@ -1,0 +1,10 @@
+App\Entity\Client:
+  properties:
+    name:
+      - NotBlank: ~
+    surname:
+      - NotBlank: ~
+    active:
+      - NotBlank: ~
+    paymentInfo:
+      - NotBlank: ~

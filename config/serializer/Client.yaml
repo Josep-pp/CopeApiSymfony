@@ -1,0 +1,16 @@
+App\Entity\Client:
+  attributes:
+    id:
+      groups: ['client']
+
+    name:
+      groups: ['client','client_no_id']
+
+    surname:
+      groups: ['client','client_no_id']
+
+    active:
+      groups: ['client','client_no_id']
+
+    paymentInfo:
+      groups: ['client','client_no_id']

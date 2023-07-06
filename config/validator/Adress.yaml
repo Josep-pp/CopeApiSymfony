@@ -1,0 +1,14 @@
+App\Entity\Adress:
+  properties:
+    type:
+      - NotBlank: ~
+    number:
+      - NotBlank: ~
+    name:
+      - NotBlank: ~
+    citty:
+      - NotBlank: ~
+    postalCode:
+      - NotBlank: ~
+    client:
+      - NotBlank: ~

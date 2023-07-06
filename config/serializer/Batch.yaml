@@ -1,0 +1,13 @@
+App\Entity\Batch:
+  attributes:
+    id:
+      groups: ['batch']
+
+    type:
+      groups: ['batch','batch_no_id']
+
+    priceKilo:
+      groups: ['batch','batch_no_id']
+
+    kilos:
+      groups: ['batch','batch_no_id']

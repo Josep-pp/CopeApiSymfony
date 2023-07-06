@@ -1,0 +1,13 @@
+App\Entity\OrderLine:
+  attributes:
+    id:
+      groups: ['orderline']
+
+    kilos:
+      groups: ['orderline','orderline_no_id']
+
+    order:
+      groups: ['orderline','orderline_no_id']
+
+    orderline:
+      groups: ['orderline','orderline_no_id']
